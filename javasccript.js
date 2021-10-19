@@ -1,0 +1,1 @@
+var bt =document.querySelector("#bt")

@@ -9,43 +9,67 @@
     </head>
     <body>
         <header>
-            <h1 class="title" > Dojonary</h1>
-            <textarea name ="search" id="search" cols="28" rows="13">search</textarea>
-            <button onclick="off(this)" class =buttonone>LogIn </button>
+            <h1 class="title">Dojonary</h1>
+            <textarea name="search" id="search" cols="28" rows="13">
+search</textarea
+            >
+            <button onclick="off(this)" class="buttonone">LogIn</button>
         </header>
-        <div class = container>
-           <div class="right">
-             <div class="dic">
-                <div class="ninja">
-                    <h1>ninja</h1>
-                    <h3>noun</h3>
-                    <p>Plural:ninjas</p>
-                    <button onclick="alert ('ninja was liked')" class ="button2">13 likes</button>
-                    <div class="definition" >
-                    <p> A practitoner skilled in the Japanese art of ninjustsu</p></p>
-                    </div>
-                </div>
-                <div class="lower">
-                    <div class="ninjatoo">
+        <div class="container">
+            <div class="right">
+                <div class="dic">
+                    <div class="ninja">
                         <h1>ninja</h1>
                         <h3>noun</h3>
                         <p>Plural:ninjas</p>
-                        <button onclick="alert('ninja was liked')" class ="button2">33 likes</button>
-                        <p> A programmer who breaks down problems with zen-like focus </p>
-                        </div> 
+                        <button
+                            onclick="alert ('ninja was liked')"
+                            class="button2"
+                        >
+                            13 likes
+                        </button>
+                        <div class="definition">
+                            <p>
+                                A practitoner skilled in the
+                                <span>Japenese</span> art of
+                                <span>ninjustus</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <div class="ninjatoo">
+                            <h1>ninja</h1>
+                            <h3>noun</h3>
+                            <p>Plural:ninjas</p>
+                            <button
+                                onclick="alert('ninja was liked')"
+                                id="bt"
+                                class="button2"
+                            >
+                                33 likes
+                            </button>
+                            <p>
+                                A <span>programmer</span> who breaks down
+                                problems with <span>zen</span>-like focus
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class =left>
-                <div class = dictoo>
-                    <h1>Dojonary is defined by you </h1>
-                    <button class= "button3" onclick="logout(This)" class="button3">Add Definition</button> 
-                    
+            <div class="left">
+                <div class="dictoo">
+                    <h1>Dojonary is defined by you</h1>
+                    <button
+                        class="button3"
+                        onclick="logout(This)"
+                        class="button3"
+                    >
+                        Add Definition
+                    </button>
+                </div>
             </div>
         </div>
-</div>
 
-
-            
+        <script src="./javasccript.js"></script>
     </body>
 </html>
